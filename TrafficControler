@@ -1,0 +1,20 @@
+<html>
+  <body>
+  <center>
+  <br>
+  <br>
+  <br>
+  <form action="https://api.particle.io/v1/devices/e00fce6801bb0787034b6953/led?access_token=0abb5b822cfa137db66a0956767d03c09d3ac631" method="POST">
+    Remote LED Control<br>
+    <input type="radio" name="arg" value="red"> Turn the RED LED on.
+    <br>
+    <input type="radio" name="arg" value="green"> Turn the green LED on.
+    <br>
+    <input type="radio" name="arg" value="blue"> Turn the blue LED on.
+    <br>
+    <br>
+    <input type="submit" value="COMPLETE">
+  </form>
+  </center>
+  </body>
+</html>
